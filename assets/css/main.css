@@ -4878,6 +4878,14 @@ a img {
     margin-top: 10px
 }
 
+.header .site-description-small {
+    font-size: 19px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px
+}
+
 @media only screen and (min-width:550px) {
     .header .site-description {
         font-size: 40px
