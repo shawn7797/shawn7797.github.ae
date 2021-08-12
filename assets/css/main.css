@@ -5019,6 +5019,11 @@ a img {
     margin: 5px auto
 }
 
+.user-details-medium {
+    text-align: center;
+    margin: 5px auto
+}
+
 #projects {
     display: flex;
     flex-direction: column;
