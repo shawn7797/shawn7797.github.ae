@@ -51,7 +51,7 @@
           <a aria-label="My Github Profile" target="_blank" href="https://github.com/shawn7797">
             <i class="icon fa fa-github-alt" aria-hidden="true"></i>
           </a>
-          <a aria-label="My Résumé" target="_blank" href="https://drive.google.com/file/d/1hBX4uwgg4L2wukHK2lYGCQtyK5FjAPo6/view?usp=sharing">
+          <a id="trigger" aria-label="My Résumé" target="_blank" href="./assets/files/Shawn+Mathias+New+Resume+PDF+2022.pdf">
             <i class="icon fa fa fa-file-pdf-o" aria-hidden="true"></i>
           </a>
           <a aria-label="Send Email" href="mailto:shawn7797@gmail.com" target="_blank"
@@ -83,15 +83,39 @@
           />
           <img
             src="./assets/img/jpg/Shawn-Mathias.jpg"
-            alt="Professional Me"
+            alt="Shawn Mathias"
             width="20%"
             style="border-radius: 50%"
           />
         </picture>
         <p>
-          Worked with Cerner as a Full Stack Software Engineer for 1.5+ years.<br>
-          Worked using React.Js and Ruby on Rails and Java REST Api.<br>
-          I am passionate about frontend development.
+          Currently working at <b>&copy; SafEarth Clean Technologies</b> as a Front-End Developer.
+          </br>
+          <b>&copy; SafEarth</b> is India's largest platform for the adoption of renewable energy by industries.
+          We help in streamling and automating the transition from traditional power to clean power and help our users save time, money and possible errors
+          when making this purchase.
+          </br>
+          The <b>&copy; SafEarth</b> platform has now completed over 120MWs of distributed solar projects for industries acorss India. We have
+          worked with companies of all sizes, from SME units to Fortune 500 firms. We also have experience of working Pan India,
+          with projects in over 18 states. Additionally, we have worked across different industries to deploy quality solar
+          assets.
+          </br>
+          Today, our plants are now saving over 1,00,000 Tonnes of carbon emissions per year but we are just getting started. Our
+          team has set itself the audacious aim of saving ONE BILLION TONNES of carbon emissions by 2030.
+          </br>
+          </br>
+          As a Frontend Developer, I am responsible for developing new user-facing features, determining the structure and
+          functional logic of web pages, building reusable codes, optimizing page loading times, and using a variety of markup
+          languages and design libraries to develop web pages.
+          </br>
+          I work closely with the UI/UX Designer and the Backend Engineer and
+          bridge the gap between graphical design and technical implementation, taking an active role on both sides and defining
+          how the application looks as well as how it works keeping in mind the end user's requirements and expectations.
+          </br>
+          </br>
+          Prior to this, I worked at Cerner HealthCare Solutions as a Full Stack Software Engineer for 1.5+ years.</br>
+          Worked using React.Js and Ruby on Rails and Java REST API.</br>
+          <!-- I am passionate about Front-End development. -->
         </p>
       </div>
 
@@ -147,6 +171,19 @@
       </br>
       </div>
 
+      <!-- SafEarth -->
+      <div class="user-projects">
+        <div class="user-details" style="margin-top: -90px">
+          <h3>SafEarth Clean Technologies Pvt Ltd - Bengaluru</h3>
+        </br>
+      </div>
+        <div class="user-details" style="margin-top: -50px">
+          <h4 style="margin-top: -23px">October 2022 - Present</h4>
+      </div>
+
+      </br>
+      </br>
+
       <!-- Cerner -->
       <div class="user-projects">
         <div class="user-details" style="margin-top: -90px">
@@ -181,8 +218,13 @@
     <!-- Projects Section -->
     <section id="projects">
       <div class="user-details">
-        <h1>Featured Projects</h1>
-        <p>Coming soon....</p>
+        <h1 style="margin: 0 !important">Featured Projects</h1>
+        <p style="margin-bottom: 0 !important">
+          I developed a bootstrapped website for <b>&copy; ARABIAN STAR</b> which is a General Trading Company based in Dubai, UAE.
+          </br>
+          I also assisted them in creating an email id with their very own domain name on their request.
+        </p>
+        <a href="https://www.arabstar12.ae" target="_blank">Link</a>
       </div>
 
       <!-- User Project #1: Personal Résumé Website -->
@@ -321,8 +363,36 @@
       </div> -->
     </section>
 
+    <!-- Scroll To Top Start -->
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+    <!-- Scroll To Top End -->
+
     <footer class="footer">
-      <p>&copy; SHAWN EDRIC MATHIAS, 2021</p>
+      <p>&copy; SHAWN EDRIC MATHIAS, <script>document.write(new Date().getFullYear())</script></p>
     </footer>
 
     <!-- Import JS: Particles Theme -->
